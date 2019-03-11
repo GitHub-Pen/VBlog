@@ -21,20 +21,20 @@
         <div style="position:relative;  z-index:2;margin: auto;margin-top:-30px;width:64rem;">
             <el-card shadow="never" :body-style="{ padding: '0px' }">
                 <el-row>
-                    <el-col :span="10">
-                        <el-menu @select="selectTopbar" :default-active="topbar.active" mode="horizontal" menu-trigger="click">
-                            <el-submenu index="#more">
-                                <template slot="title">了解博主</template>
-                                <el-menu-item index="#githubHome">github主页</el-menu-item>
-                                <el-menu-item index="#blog">其他博客</el-menu-item>
-                            </el-submenu>
-                            <el-submenu index="#webSites" v-if="webSites.length>0">
-                                <template slot="title">其他网站</template>
-                                <el-menu-item :index="'#webSites-'+index" v-for="(item,index) in webSites" :key="'#webSites'+index">{{item.name}}</el-menu-item>
-                            </el-submenu>
-                        </el-menu>
-                    </el-col>
-                    <el-col :span="8" style="text-align: center;padding: 12px 0px 0px 10px">
+                    <!--<el-col :span="10">-->
+                        <!--<el-menu @select="selectTopbar" :default-active="topbar.active" mode="horizontal" menu-trigger="click">-->
+                            <!--<el-submenu index="#more">-->
+                                <!--<template slot="title">了解博主</template>-->
+                                <!--<el-menu-item index="#githubHome">github主页</el-menu-item>-->
+                                <!--<el-menu-item index="#blog">其他博客</el-menu-item>-->
+                            <!--</el-submenu>-->
+                            <!--<el-submenu index="#webSites" v-if="webSites.length>0">-->
+                                <!--<template slot="title">其他网站</template>-->
+                                <!--<el-menu-item :index="'#webSites-'+index" v-for="(item,index) in webSites" :key="'#webSites'+index">{{item.name}}</el-menu-item>-->
+                            <!--</el-submenu>-->
+                        <!--</el-menu>-->
+                    <!--</el-col>-->
+                    <el-col :span="18" style="text-align: center;padding: 12px 0px 0px 10px">
                         <el-row>
                             <el-col :span="4">
                                 <el-popover placement="top" trigger="hover">
@@ -273,7 +273,7 @@
     }
 
     .project-name {
-        font-size: 3.25rem;
+        font-size: 3.0rem;
         margin-top: 0;
         margin-bottom: 0.1rem;
     }
