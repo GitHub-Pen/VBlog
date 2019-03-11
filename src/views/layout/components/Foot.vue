@@ -3,15 +3,15 @@
 		<el-row>
 			<el-col :span="10">
 				<div>
-					© 2018 GitHub-Laziji&emsp;&emsp;
-					<a href="https://github.com/GitHub-Laziji" target="_blank">Profile</a>&emsp;&emsp;
-					<a href="https://github.com/GitHub-Laziji/vblog" target="_blank">VBlog</a>
+					© 2018 GitHub-Pen&emsp;&emsp;
+					<a href="https://github.com/GitHub-Pen" target="_blank">Profile</a>&emsp;&emsp;
+					<!--<a href="https://github.com/GitHub-Laziji/vblog" target="_blank">VBlog</a>-->
 				</div>
 			</el-col>
 			<el-col :span="4">
-				<div style="text-align: center;font-size: 18px">
-					<i class="el-icon-location-outline"></i>
-				</div>
+				<!--<div style="text-align: center;font-size: 18px">-->
+					<!--<i class="el-icon-location-outline"></i>-->
+				<!--</div>-->
 			</el-col>
 			<el-col :span="10">
 				<div style="float: right;">
