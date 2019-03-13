@@ -279,7 +279,7 @@
     }
 
     .project-tagline {
-        font-size: 1.25rem;
+        font-size: 1.0rem;
         margin-bottom: 2rem;
         font-weight: normal;
         opacity: 0.7;
